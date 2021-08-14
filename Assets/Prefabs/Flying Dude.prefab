@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 284516709822425414}
   - component: {fileID: 284516709822425410}
   - component: {fileID: 1635784339641366698}
+  - component: {fileID: 4832613648188494856}
   m_Layer: 0
   m_Name: Flying Dude
   m_TagString: Enemy
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fa43b06c224c1a4409be13c59b1ae4b5, type: 3}
+  m_Sprite: {fileID: 8891462688767063018, guid: 5e5cf7d24e082694b9f3509c098538b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -153,3 +154,22 @@ PolygonCollider2D:
       - {x: 0.43648428, y: -0.31886253}
       - {x: 0.43648428, y: 0.12093702}
       - {x: 0.12799433, y: 0.49764752}
+--- !u!95 &4832613648188494856
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284516709822425415}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 782df691dee15794fbf48269752b146a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

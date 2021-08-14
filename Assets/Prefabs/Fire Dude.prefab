@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8689879028368338389}
   - component: {fileID: 8689879028368338387}
   - component: {fileID: 6950602797338630657}
+  - component: {fileID: 5294355429976694292}
   m_Layer: 0
   m_Name: Fire Dude
   m_TagString: Enemy
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fb0949d14271ecf479e0b5eb88c18040, type: 3}
+  m_Sprite: {fileID: -6631133456518536768, guid: cf1868ae9d164af4888073bac99928ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -153,3 +154,22 @@ PolygonCollider2D:
       - {x: 0.3395617, y: -0.24832468}
       - {x: 0.43604878, y: 0.243825}
       - {x: 0.43335634, y: 0.5024683}
+--- !u!95 &5294355429976694292
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689879028368338390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 469d2e7952cfc1d43aee729697c1da7f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

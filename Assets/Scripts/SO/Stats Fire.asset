@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Stats Fire
   m_EditorClassIdentifier: 
   monsterName: 
-  attackSpeed: 2
+  attackSpeed: 0.1
   moveSpeed: 5
-  damage: 7
+  damage: 2

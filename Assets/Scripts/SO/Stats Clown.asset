@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsterName: 
   attackSpeed: 2
-  moveSpeed: 10
+  moveSpeed: 8
   damage: 3

@@ -5,10 +5,11 @@ public class GameManager : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetButtonDown("Restart"))
         {
             ReloadScene();
         }
+        if (Input.GetButtonDown("Cancel")) Application.Quit();
     }
     public static void ReloadScene()
     {

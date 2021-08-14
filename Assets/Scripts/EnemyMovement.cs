@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rb.MovePosition(Vector2.MoveTowards(transform.position, player.transform.position, stats.moveSpeed * Time.fixedDeltaTime));
+        if(player.GetComponent<PlayerControler>().PlayerIsDead() == false) rb.MovePosition(Vector2.MoveTowards(transform.position, player.transform.position, stats.moveSpeed * Time.fixedDeltaTime));
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
